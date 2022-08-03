@@ -1,0 +1,24 @@
+body {background-color: #ffff00;}
+h1{
+    color: 0000cc;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: #555555;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.resaltado{
+    color: #df190b;
+    background-color: #00ffb3;
+    font-style: italic;
+}
+#cabecera{
+    color: #0bdf2e;
+    background-color: #9900ff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
