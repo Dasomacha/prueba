@@ -1,13 +1,11 @@
 .fila_head{
     color:red;
     font-family: 'Segoe UI';
-    border-width: 1px;
-    border-style: dotted;
 }
 .fila{
     font-family: 'Times New Roman', Times, serif;
-    border-width: 1px;
     border-style: dotted;
+    border-width: 1px;
 }
 .texto{
     font-family: 'Times New Roman', Times, serif;
@@ -22,4 +20,6 @@ th{
 table{
     border-collapse: collapse;
     background-color: yellow;
+    border-style: dotted;
+    border-width: 1px;
 }
