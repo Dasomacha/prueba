@@ -18,7 +18,7 @@
     float: left;
 }
 #separacion{
-    float: right;
+    line-height: normal;
 }
 #texto2 {
     width: 80%;
@@ -26,4 +26,8 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 180%;
     text-align: justify;
+}
+.imagenes{
+    max-width: 100%;
+    max-height: 100%;
 }

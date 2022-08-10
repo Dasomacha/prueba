@@ -1,0 +1,24 @@
+.fila_head{
+    color:red;
+    font-family: 'Segoe UI';
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+    background-color: yellow;
+}
+.fila{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+    border-bottom-color: red;
+    border-bottom-style: dashed;
+}
