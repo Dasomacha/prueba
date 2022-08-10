@@ -8,3 +8,22 @@
 #p_texto1{
     text-align: center;
 }
+#p_texto2{
+    text-align: center;
+}
+#imagen1{
+    float: right;
+}
+#imagen2{
+    float: left;
+}
+#separacion{
+    float: right;
+}
+#texto2 {
+    width: 80%;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    text-align: justify;
+}
