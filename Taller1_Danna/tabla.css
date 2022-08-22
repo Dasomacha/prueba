@@ -1,0 +1,40 @@
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+}
+#acceso{
+    color: #df0b12;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#recuadro{
+    background-image: url("Maddy.jpeg");
+    color: rgba(0, 255, 13, 0.418);
+    width: 450px;
+    border-radius: 15px;
+    font-size: 30px;
+    opacity: 0.8;
+    align-self: center;
+}
+#recuadro1{
+    border-radius: 20px;
+    background-color: #DDD;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1:hover{
+    width: 300px;
+}
+#recuadro2{
+    border-radius: 20px;
+    background-color: #FF0;
+    width: 200px;
+    padding: 10px;
+    transition:weight 1s;
+    -webkit-transition: width 1s;
+}
+#recuadro2:hover{
+    width: 300px;
+}
