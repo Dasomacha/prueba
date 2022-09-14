@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto window</title>
+</head>
+<body>
+    <form>
+        <input type="button" value="open()" onclick="abrir()">
+        <input type="button" value="alert" onclick="mostrarAlerta()">
+        <input type="button" value="confirm" onclick="confirmar()">
+    </form>
+    <script>
+        function abrir(){
+            let ventana = open();
+            ventana.document.write("Estoy escribiendo en la nueva ventana<br>");
+            ventana.document.write("Estoy escribiendo en la segunda linea<br>");
+        }
+        function mostrarAlerta(){
+            alert("Esta ventana ya la habiamos visto en otras clases");
+        }
+        function confirmar(){
+            let respuesta = confirm("Presione algunos de los botones");
+            if(respuesta == true)
+            alert("Presionó aceptar");
+            else
+            alert("Presiono cancelar");
+        }
+    </script>
+</body>
+</html>
