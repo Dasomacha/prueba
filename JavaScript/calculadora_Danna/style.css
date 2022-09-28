@@ -87,7 +87,7 @@ button {
     width: 65px;
     border: 0;
     border-radius: 30px;
-    margin: 5px;
+    margin: 6px;
     font-size: 25px;
     cursor: pointer;
     transition: all 200ms ease;
@@ -136,9 +136,8 @@ button#equal {
     color:#ce28f0;
     font-size: 25px;
     font-family: 'Trebuchet MS', sans-serif;
-    border: 0;
     border-radius: 10px;
-    margin: 5px;
+    margin-top: 20px;
     background-color: #dd98d7;
     padding: 8px;
     }
@@ -177,9 +176,7 @@ button#equal {
     font-size: 25px;
     font-family: 'Trebuchet MS', sans-serif;
     width: 65px;
-    border: 0;
     border-radius: 10px;
-    margin: 5px;
     background-color: #272931;
 }
   
