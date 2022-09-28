@@ -100,9 +100,7 @@ button:hover {
 button#equal {
     height: 130px;
 }
-#collapseTable {
-    border-collapse: collapse;
-}
+
 /* Tema claro */
 
 .calculator {
@@ -133,24 +131,17 @@ button#equal {
     color: #000;
   }
 
-#hora{
-    margin: 0;
+.date{
     text-align: center;
     color:#ce28f0;
-    height: 30px;
     font-size: 25px;
     font-family: 'Trebuchet MS', sans-serif;
-    border: 3px solid rgb(199, 78, 183);
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #dd98d7;
+    padding: 8px;
     }
-#fecha{
-    margin: 0;
-    text-align: center;
-    color:#ce28f0;
-    height: 30px;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', sans-serif;
-    border: 3px solid rgb(199, 78, 183);
-}
   /* Tema oscuro */
 
   .calculator.dark {
@@ -180,22 +171,15 @@ button#equal {
     background-color: #4e1f36;
     color: #ffffff;
   }
-  .calculator.dark #hora{
-    margin: 0;
+  .calculator.dark .date{
     text-align: center;
-    color:#fff;
-    height: 30px;
+    color: #ffffff;
     font-size: 25px;
     font-family: 'Trebuchet MS', sans-serif;
-    border: 3px solid rgb(0, 0, 0);
-}
-.calculator.dark #fecha{
-    margin: 0;
-    text-align: center;
-    color:#fff;
-    height: 30px;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', sans-serif;
-    border: 3px solid rgb(0, 0, 0);
+    width: 65px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #272931;
 }
   
